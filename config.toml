@@ -17,7 +17,7 @@ pygmentsUseClasses = true
   rss = true
   lastmod = true
   userStatusEmoji = "🌏"
-  favicon = "/images/dna.ico"
+  favicon = "/images/dna.png"
   location = "Nanjing, China"
   enableGitalk = true
 
