@@ -1,0 +1,43 @@
+baseURL = "https://diazepam.cc/"
+languageCode = "zh-cn"
+title = "Diazepam's Zone"
+theme = "github-style"
+googleAnalytics = "G-DDLTSB3FYD"
+copyright = "Theme by <a href='https://github.com/MeiK2333/github-style'>github-style</a>"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Diazepam"
+  description = "Enjoy everyday!"
+  github = "Metaphorme"
+  email = "contactme@diazepam.cc"
+  url = "https://diazepam.cc"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "🌏"
+  favicon = "/images/dna.ico"
+  location = "Nanjing, China"
+  enableGitalk = true
+
+  [params.gitalk]
+    clientID = "Your client ID" 
+    clientSecret = "Your client secret" 
+    repo = "repo"
+    owner = "Metaphorme"
+    admin = "Metaphorme"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://diazepam.cc"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
