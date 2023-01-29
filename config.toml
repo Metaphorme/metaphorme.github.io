@@ -22,9 +22,9 @@ pygmentsUseClasses = true
   enableGitalk = true
 
   [params.gitalk]
-    clientID = "Your client ID" 
-    clientSecret = "Your client secret" 
-    repo = "repo"
+    clientID = "e634d9a28d7aa0a810f5" 
+    clientSecret = "7493396cb521167eaa0893b3058a1aba6baddcef" 
+    repo = "metaphorme.github.io"
     owner = "Metaphorme"
     admin = "Metaphorme"
     id = "location.pathname"
