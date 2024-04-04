@@ -9,15 +9,15 @@ date: 2023-01-28T11:42:00+08:00
 
 ### Hi there 👋
 
-🥷 I'm Diazepam(aka Metaphorme).
+🥷 I'm Diazepam (aka Metaphorme).
 
-👨‍🎓 Undergraduate Student at China Pharmaceutical University, Major in Pharmacy.
+🎓 Undergraduate Student at China Pharmaceutical University, Major in Basic Pharmacy.
 
-🧪 Interested in Computer network, Computational Molcular Chemistry, and anything interesting! 🤩
+🧪 Interested in Computer Network, Computational Molcular Chemistry, Deep Learning, Embedded System, Cryptography, and anything interesting! 🤩
 
 🌏 Open Source Enthusiast.
 
-🌱 Have fun with Python/Docker/Go, learning Rust.
+🌱 Have fun with Python🐍 && Docker🐳 && C++ 👾, learning Rust 🦾.
 
 ### Contributions 🦾
 
@@ -28,23 +28,23 @@ date: 2023-01-28T11:42:00+08:00
 
 📬 Email: 77@diazepam.cc
 
-🎭 PGP Signature: 1E6892D719DE14EEF1EE5960DEFF5F01B4189DB6
+🎭 PGP Signature: 96AAE13C1DB59D92E6E06188CA0BA69681448F47
 
 🔒 PGP PUBLIC KEY:
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-mDMEY9dWuxYJKwYBBAHaRw8BAQdAddkke+bxnkxPcH0dspGARTwXXqsF6cZSWDQn
-xrOF+T+0O0RpYXplcGFtIChHSVRIVUItS0VZL1NpZ25hdHVyZS9FbmNyeXB0aW9u
-KSA8NzdAZGlhemVwYW0uY2M+iJkEExYKAEEWIQQeaJLXGd4U7vHuWWDe/18BtBid
-tgUCY9dWuwIbAwUJAeEzgAULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRDe
-/18BtBidti1AAQCEsTnZ5VyWXQBpwEiQK5PnM88VKdrvDE2wqSEqV+hx6wD9E9u0
-05xtI28uL3rCbzeGPIytyxsxcM15u76mRuulvQG4OARj11a7EgorBgEEAZdVAQUB
-AQdA2mY76eqZXPWJFRyFAvDFUa97o6n3lyngXQlolnNaBEEDAQgHiH4EGBYKACYW
-IQQeaJLXGd4U7vHuWWDe/18BtBidtgUCY9dWuwIbDAUJAeEzgAAKCRDe/18BtBid
-tvjcAP9VvWL/2gqkkBTFGf3Zi2imBCAT6q9PwabYrd3WG98HpgD/ZT7wnntlnMgt
-jQo1UYUMkYt2i58YllOv9Me0poUj7gM=
-=PWFI
+mDMEZfQTAhYJKwYBBAHaRw8BAQdAjtGlz/+sCcSnbuXZSfAerW2BWoW9XLlCI5AF
+/bAQ6qW0O0RpYXplcGFtIChHSVRIVUItS0VZL1NpZ25hdHVyZS9FbmNyeXB0aW9u
+KSA8NzdAZGlhemVwYW0uY2M+iJkEExYKAEEWIQSWquE8HbWdkubgYYjKC6aWgUSP
+RwUCZfQTAgIbAwUJA8JnAAULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRDK
+C6aWgUSPR08SAQC7Ahg8CA1iop8/I5unELA3KqFw6WhVy0K7je6Uu7yCdgD/eiVn
+BVYZ7wvM/OHR1wjUqb69WiUgJP6lm0h3RkfUawS4OARl9BMCEgorBgEEAZdVAQUB
+AQdAjDBzSSp1liMjWCIejf4yH7iwJOyQK9EtnzNrqGmWrV0DAQgHiH4EGBYKACYW
+IQSWquE8HbWdkubgYYjKC6aWgUSPRwUCZfQTAgIbDAUJA8JnAAAKCRDKC6aWgUSP
+R/v+AQCAC7YFwTjCGrkZTJaW8FB3/BNGCzuklE3TTyT/rIkkuAEA8+j7Z7suzTKv
+MKfkU+c6ZPsqsrjV1Uf6jFeotiZciw8=
+=MOwN
 -----END PGP PUBLIC KEY BLOCK-----
 ```
