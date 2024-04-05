@@ -10,7 +10,7 @@ tags: ['chemistry', 'xTB', 'Molecular Dynamics']
 
 很好奇 [xTB](https://github.com/grimme-lab/xtb) 进行分子动力学模拟时如何进行速度初始化，遂拔一下代码，记录在本文。
 
-由于我缺少 Fortran 调试器（实际上 xTB 根本没法在 arm 架构的 Mac 进行分子动力学模拟😭），并且没有 Fortran 经验，所以本文的撰写基本依靠猜测，不确保正确。
+由于我缺少 Fortran 调试器（实际上 xTB 根本没法在 arm 架构的 Mac 进行分子动力学模拟😭），并且没有 Fortran 经验，导致本文的疏漏较多，还请指教。
 
 ## 部分源码
 
@@ -158,7 +158,7 @@ thermostat 是布尔类型变量，是 xTB 配置文件中 nvt 量，默认 true
    17. 回到步骤 x，直到生成所有原子的速度。
 2. xTB 初始化速度特点：
    1. 为体系的每个原子提供**相同的初始动能**（能量均分定理）；
-   2. 相同类型原子 Vx，Vy，Vz 的**绝对值相同，符合均匀分布，而非麦克斯韦-玻尔兹曼分布**。
+   2. 相同类型原子 Vx，Vy，Vz 的**绝对值相同，正负性服从均匀分布，而非麦克斯韦-玻尔兹曼分布**。
 3. 疑惑：
    1. edum=f * Tinit * 0.5 * kB * nfreedom 公式来源（可能与能量均分定理有关）；
    2. eperat=Ekin / (3.0 * n) 公式来源（可能与能量均分定理有关）；
@@ -174,20 +174,23 @@ from rdkit import Chem
 import numpy as np
 
 
-def xTB_initial_velocities(atom_list: np.ndarray, t_init: Union[int, float], nvt=True) -> np.ndarray:
+def xTB_initial_velocity(atom_list: Union[list, np.ndarray], t_init: Union[int, float], nvt=True) -> np.ndarray:
     """
-    xTB_initial_velocities
+    xTB_initial_velocity
     使用 xTB 的方法初始化速度
-    :param atom_list: np.ndarray，体系原子序数表
+    :param atom_list: Union[list, np.ndarray]，体系原子序数表
     :param t_init: Union[int, float]，初始温度
-    :param nvt=True，NVT 系综
+    :param nvt=True，NVT系综
     :return: np.ndarray
 
     Author: Heqi Liu
     GitHub: https://github.com/metaphorme
     Time: 4 April 2024
-    Licensed under the MIT License.
+    Licensed under the MIT License
     """
+    
+    if isinstance(atom_list, list):
+        atom_list = np.array(atom_list)
 
     # 初始化常数
     amutoau = 1.660539040e-27 / 9.10938356e-31
@@ -213,15 +216,15 @@ def xTB_initial_velocities(atom_list: np.ndarray, t_init: Union[int, float], nvt
     masses = np.repeat(masses, 3, axis=1)  # 横向扩展 3 次
 
     v = np.sqrt(2 * eperat / masses)
-    velocities = v * f * f2
-    return velocities
+    velocity = v * f * f2
+    return velocity
 ```
 
 我们可以尝试使用 xTB 的速度初始化方法初始化 C2H4O2 在 300K 时的速度，NVT 系综：
 
 ```python
 # 使用 xTB 的速度初始化方法初始化 C2H4O2 在 300K 时的速度，NVT 系综
-velocities = xTB_initial_velocities(atom_list=np.array([8, 8, 6, 6, 1, 1, 1, 1]), t_init=300, nvt=True)
+velocities = xTB_initial_velocities(atom_list=[8, 8, 6, 6, 1, 1, 1, 1], t_init=300, nvt=True)
 np.set_printoptions(precision=14)  # xTB 速度显示为 14 位小数
 print(velocities)
 ```
