@@ -4,6 +4,8 @@ date: 2024-04-05T17:20:00+08:00
 tags: ['chemistry', 'Molecular Dynamics']
 ---
 
+服从麦克斯韦-玻尔兹曼分布的速度初始化及其 Python 实现
+
 <!--more-->
 
 ## 背景资料
