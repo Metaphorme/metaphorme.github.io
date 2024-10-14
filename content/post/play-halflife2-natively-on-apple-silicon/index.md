@@ -118,11 +118,13 @@ tags: ['games']
 
 ![](tital-2.png)
 
-可以进入并游玩，但中文无法正常显示。
+可以进入并游玩，但中文无法正常显示（搜索到 Half-Life 2 的 Linux 版、CS 1.6 在 Linux 上运行也无法显示中文，但不知道是否也采用了这个引擎。这应该是与引擎无关的共性问题）。
+
+你可以执行 `./hl2_launcher -language english -audiolanguage schinese +cc_lang english` 进行游戏，使界面和字幕变为英文，而语音保持中文。可以在[这里](https://steamcommunity.com/sharedfiles/filedetails/?id=3089088861)了解更多信息。
 
 ![](in-game.png)
 
-游戏内 300 帧，但实际玩起来还是觉得有些卡顿和发热。
+游戏内几乎全高特效，运行非常流畅!
 
 ![](process.png)
 
@@ -151,4 +153,6 @@ f323398d42ef1dbc40044a483c2bc59e082b0242fccece891abe411e02a466f0  source-engine-
 [1] [Source Engine (EN), nillerusr](https://github.com/nillerusr/source-engine/wiki/Source-Engine-(EN))
 
 [2] [Building Source Engine for Apple Silicon, tifasoftware](https://gist.github.com/tifasoftware/971697061ffcf783807887795d7406df)
+
+[3] [Change language, Allower](https://steamcommunity.com/sharedfiles/filedetails/?id=3089088861)
 
