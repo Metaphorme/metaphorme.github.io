@@ -1,10 +1,10 @@
 ---
 title: "xTB 速度初始化方法"
 date: 2024-04-04T17:20:00+08:00
-tags: ['chemistry', 'xTB', 'Molecular Dynamics']
+tags: ['chemistry', 'Molecular Dynamics']
 ---
 
-浅浅探讨一下 xTB 速度初始化方法
+浅浅探讨一下 xTB 速度初始化方法。
 
 <!--more-->
 

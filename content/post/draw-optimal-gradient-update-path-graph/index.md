@@ -5,7 +5,7 @@ tags: ['deep learning', 'iDiazepam']
 author: iDiazepam
 ---
 
-多种深度学习优化器最优化梯度更新路径图的绘制
+多种深度学习优化器最优化梯度更新路径图的绘制。
 
 <!--more-->
 
