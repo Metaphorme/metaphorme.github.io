@@ -118,7 +118,7 @@ tags: ['games']
 
 ![](tital-2.png)
 
-可以进入并游玩，但中文无法正常显示（搜索到 Half-Life 2 的 Linux 版、CS 1.6 在 Linux 上运行也无法显示中文，但不知道是否也采用了这个引擎。这应该是与引擎无关的共性问题）。
+可以进入并游玩，但中文无法正常显示（此问题应该与字体有关，可以试着参考[这篇文章](https://b23.tv/4Xm4T3f)。我没有时间折腾啦！评论区告诉我结果呗）。
 
 你可以执行 `./hl2_launcher -language english -audiolanguage schinese +cc_lang english` 进行游戏，使界面和字幕变为英文，而语音保持中文。可以在[这里](https://steamcommunity.com/sharedfiles/filedetails/?id=3089088861)了解更多信息。
 
@@ -148,7 +148,7 @@ f323398d42ef1dbc40044a483c2bc59e082b0242fccece891abe411e02a466f0  source-engine-
 20df9dfab6b98910dfe2f815b30a225a72c7256da0a702f5e5b42031f4bddba1  source-engine-portal-mac-aarch64.tar.xz
 ```
 
-## 参考
+## 参考文献
 
 [1] [Source Engine (EN), nillerusr](https://github.com/nillerusr/source-engine/wiki/Source-Engine-(EN))
 
@@ -156,3 +156,4 @@ f323398d42ef1dbc40044a483c2bc59e082b0242fccece891abe411e02a466f0  source-engine-
 
 [3] [Change language, Allower](https://steamcommunity.com/sharedfiles/filedetails/?id=3089088861)
 
+[4] [Fedora系统上，Steam中文变方块字的解决方法, 怎么取名字这么难额啊](https://b23.tv/4Xm4T3f)
