@@ -112,7 +112,7 @@ tags: ['games']
 
 ## 开始玩！
 
-在副本的根文件夹下打开 Terminal，然后执行 `./hl2_launcher`。
+在副本的根文件夹下打开 Terminal，然后执行 `DYLD_LIBRARY_PATH=./bin ./hl2_launcher`。
 
 ![](tital-1.png)
 
@@ -120,7 +120,7 @@ tags: ['games']
 
 可以进入并游玩，但中文无法正常显示（此问题应该与字体有关，可以试着参考[这篇文章](https://b23.tv/4Xm4T3f)。我没有时间折腾啦！评论区告诉我结果呗）。
 
-你可以执行 `./hl2_launcher -language english -audiolanguage schinese +cc_lang english` 进行游戏，使界面和字幕变为英文，而语音保持中文。可以在[这里](https://steamcommunity.com/sharedfiles/filedetails/?id=3089088861)了解更多信息。
+你可以执行 `DYLD_LIBRARY_PATH=./bin ./hl2_launcher -language english -audiolanguage schinese +cc_lang english` 进行游戏，使界面和字幕变为英文，而语音保持中文。可以在[这里](https://steamcommunity.com/sharedfiles/filedetails/?id=3089088861)了解更多信息。
 
 ![](in-game.png)
 
