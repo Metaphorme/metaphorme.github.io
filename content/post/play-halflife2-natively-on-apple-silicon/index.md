@@ -112,7 +112,7 @@ tags: ['games']
 
 ## 开始玩！
 
-在副本的根文件夹下打开 Terminal，然后执行 `DYLD_LIBRARY_PATH=./bin ./hl2_launcher`。
+在副本的根文件夹下打开 Terminal，然后执行 `DYLD_LIBRARY_PATH=bin/ ./hl2_launcher`。
 
 ![](tital-1.png)
 
@@ -120,7 +120,7 @@ tags: ['games']
 
 可以进入并游玩，但中文无法正常显示（此问题应该与字体有关，可以试着参考[这篇文章](https://b23.tv/4Xm4T3f)。我没有时间折腾啦！评论区告诉我结果呗）。
 
-你可以执行 `DYLD_LIBRARY_PATH=./bin ./hl2_launcher -language english -audiolanguage schinese +cc_lang english` 进行游戏，使界面和字幕变为英文，而语音保持中文。可以在[这里](https://steamcommunity.com/sharedfiles/filedetails/?id=3089088861)了解更多信息。
+你可以执行 `DYLD_LIBRARY_PATH=bin/ ./hl2_launcher -language english -audiolanguage schinese +cc_lang english` 进行游戏，使界面和字幕变为英文，而语音保持中文。可以在[这里](https://steamcommunity.com/sharedfiles/filedetails/?id=3089088861)了解更多信息。
 
 ![](in-game.png)
 
@@ -132,21 +132,9 @@ tags: ['games']
 
 ## 懒人专用
 
-好吧，看起来你非常的懒惰，所以我编译好了 ARM 架构 macOS 的 Source Engine。你可以在遵循当地法律法规的前提下从[这里](https://1drv.ms/f/c/bcb0c1f78aa2a26d/EmWnVqmX-o5NjR4wgNV0Q4wBpaP4KGjbgs87D1t_t-ywpg?e=tQ3jxh)下载引擎并**自行安装游戏文件**试玩，本人不承担任何责任。
+好吧，看起来你非常的懒惰，所以我编译好了 macOS 和 Linux 平台多架构 Source Engine。你可以在遵循当地法律法规的前提下从[这里](https://github.com/Metaphorme/build-source-engine/releases)下载引擎并**自行安装游戏文件**试玩，本人不承担任何责任。
 
 至于游戏文件？请你务必购买正版哦！
-
-```bash
-$ git log --pretty=format:'%H' -n 1
-29985681a18508e78dc79ad863952f830be237b6
-(END)
-
-$ shasum -a 256 *.tar.xz
-4c5d0b66115edf90f5d25aaccf67b9051c81d3f98e8168cb6e8da4684ec10081  source-engine-episodic-mac-aarch64.tar.xz
-5522bbca1376095963326905562c5eb2a416454dfe8c6be623a0d2647bc3a7db  source-engine-hl1-mac-aarch64.tar.xz
-f323398d42ef1dbc40044a483c2bc59e082b0242fccece891abe411e02a466f0  source-engine-hl2-mac-aarch64.tar.xz
-20df9dfab6b98910dfe2f815b30a225a72c7256da0a702f5e5b42031f4bddba1  source-engine-portal-mac-aarch64.tar.xz
-```
 
 ## 参考文献
 
