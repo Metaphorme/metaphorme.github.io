@@ -112,7 +112,9 @@ tags: ['games']
 
 ## 开始玩！
 
-在副本的根文件夹下打开 Terminal，然后执行 `DYLD_LIBRARY_PATH=bin/ ./hl2_launcher`。
+在副本的根文件夹下打开 Terminal，然后执行 `DYLD_LIBRARY_PATH=bin/ ./hl2_launcher`
+
+如果你想玩半条命2以外的游戏，在安装好游戏文件和正确引擎后，需要在执行时加入 `-game` 参数指定游戏名。例如你想玩传送门，则在安装好游戏文件和引擎后执行 `DYLD_LIBRARY_PATH=bin/ ./hl2_launcher -game portal`
 
 ![](tital-1.png)
 
