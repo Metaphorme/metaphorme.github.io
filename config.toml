@@ -6,6 +6,7 @@ googleAnalytics = "G-DDLTSB3FYD"
 copyright = "Theme by <a href='https://github.com/MeiK2333/github-style'>github-style</a>"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   author = "Diazepam"
@@ -18,8 +19,9 @@ pygmentsUseClasses = true
   lastmod = true
   userStatusEmoji = "🌏"
   favicon = "/images/dna.png"
-  location = "Nanjing, China"
+  location = "Nanjing, Jiangsu, China"
   enableGitalk = true
+  enableSearch = true
 
   [params.gitalk]
     clientID = "e634d9a28d7aa0a810f5" 

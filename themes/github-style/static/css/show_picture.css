@@ -1,0 +1,17 @@
+/* 默认显示浅色模式图片，隐藏深色模式图片 */
+.dark-mode-image {
+  display: none;
+}
+
+.light-mode-image {
+  display: block;
+}
+
+/* 当 data-color-mode="dark" 时，显示深色模式图片，隐藏浅色模式图片 */
+[data-color-mode="dark"] .dark-mode-image {
+  display: block;
+}
+
+[data-color-mode="dark"] .light-mode-image {
+  display: none;
+}
