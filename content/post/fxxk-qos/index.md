@@ -24,7 +24,7 @@ tags: ['network']
 
 2. 下载工具
 
-   * [kcptun](https://github.com/xtaci/kcptun/releases/tag/latest): 用于建立传输 TCP 数据流的通道
+   * [kcptun](https://github.com/xtaci/kcptun/releases/latest): 用于建立传输 TCP 数据流的通道
    * [UDPspeeder](https://github.com/wangyu-/UDPspeeder/releases/latest): 用于建立传输 UDP 数据流的通道
 
 3. 启动 TCP 隧道
